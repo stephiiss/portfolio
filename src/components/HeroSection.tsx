@@ -46,13 +46,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="relative aspect-square animate-scale-in lg:ml-auto">
-            <div className="relative aspect-square w-full max-w-md rounded-full bg-primary/10 p-8">
-              <div className="h-full w-full rounded-full bg-primary/20 shadow-2xl"></div>
-            </div>
-            {/* We can replace this with an actual image of Stephani */}
-            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-6xl">
-              👋
-            </div>
+            {/* Empty div where the circular background and emoji were */}
           </div>
         </div>
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
