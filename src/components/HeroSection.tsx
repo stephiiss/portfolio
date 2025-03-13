@@ -49,9 +49,18 @@ const HeroSection = () => {
             <div className="relative aspect-square w-full max-w-md rounded-full bg-primary/10 p-8">
               <div className="h-full w-full rounded-full bg-primary/20 shadow-2xl"></div>
             </div>
-            {/* We can replace this with an actual image of Stephani */}
-            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-6xl">
-              👋
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform animate-[bounce_6s_ease-in-out_infinite_alternate]">
+              <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary/30 shadow-xl">
+                <img 
+                  src="/profile-image.jpg" 
+                  alt="Stephani's profile photo"
+                  className="h-full w-full object-cover" 
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = "https://placehold.co/200x200/primary/white?text=S";
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
