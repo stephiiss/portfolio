@@ -11,6 +11,8 @@ export type Translations = {
       home: string;
       projects: string;
       contact: string;
+      lightMode: string;
+      darkMode: string;
     };
     hero: {
       greeting: string;
@@ -18,6 +20,8 @@ export type Translations = {
       subtitle: string;
       viewProjects: string;
       contactMe: string;
+      skills: string;
+      skillsList: string[];
     };
     projects: {
       title: string;
@@ -45,6 +49,8 @@ const translations: Translations = {
       home: 'Início',
       projects: 'Projetos',
       contact: 'Contato',
+      lightMode: 'Modo Claro',
+      darkMode: 'Modo Escuro',
     },
     hero: {
       greeting: 'Olá, eu sou',
@@ -52,6 +58,8 @@ const translations: Translations = {
       subtitle: 'Desenvolvedora criativa apaixonada por criar experiências digitais incríveis.',
       viewProjects: 'Ver Projetos',
       contactMe: 'Entre em Contato',
+      skills: 'Minhas Habilidades',
+      skillsList: ['React', 'TypeScript', 'Node.js', 'UI/UX Design', 'Tailwind CSS', 'Firebase', 'MongoDB', 'RESTful APIs'],
     },
     projects: {
       title: 'Meus Projetos',
@@ -75,6 +83,8 @@ const translations: Translations = {
       home: 'Home',
       projects: 'Projects',
       contact: 'Contact',
+      lightMode: 'Light Mode',
+      darkMode: 'Dark Mode',
     },
     hero: {
       greeting: 'Hello, I am',
@@ -82,6 +92,8 @@ const translations: Translations = {
       subtitle: 'Creative developer passionate about building amazing digital experiences.',
       viewProjects: 'View Projects',
       contactMe: 'Contact Me',
+      skills: 'My Skills',
+      skillsList: ['React', 'TypeScript', 'Node.js', 'UI/UX Design', 'Tailwind CSS', 'Firebase', 'MongoDB', 'RESTful APIs'],
     },
     projects: {
       title: 'My Projects',
