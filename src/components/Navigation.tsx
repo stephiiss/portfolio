@@ -2,7 +2,7 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Globe, Menu, X } from "lucide-react";
+import { Globe, Menu, Moon, Sun, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 
@@ -30,11 +30,31 @@ const Navigation = () => {
   const { language, setLanguage, t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Toggle language between PT and EN
   const toggleLanguage = () => {
     setLanguage(language === "pt-BR" ? "en-US" : "pt-BR");
   };
+
+  // Toggle dark mode
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    if (isDarkMode) {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  };
+
+  // Initialize dark mode based on user preference
+  useEffect(() => {
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setIsDarkMode(isDark);
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
 
   // Handle scroll event to change navigation bar appearance
   useEffect(() => {
@@ -56,7 +76,7 @@ const Navigation = () => {
       className={cn(
         "fixed top-0 z-50 w-full transition-all duration-300",
         isScrolled
-          ? "bg-background/90 py-2 shadow-md backdrop-blur-sm"
+          ? "bg-background/90 py-2 shadow-md backdrop-blur-sm dark:bg-background/80"
           : "bg-transparent py-4"
       )}
     >
@@ -84,6 +104,17 @@ const Navigation = () => {
                 <span className="ml-2 text-sm">{language === "pt-BR" ? "EN" : "PT"}</span>
               </Button>
             </li>
+            <li>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="rounded-full transition-all hover:bg-secondary"
+                onClick={toggleDarkMode}
+                aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+              >
+                {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </Button>
+            </li>
           </ul>
         </nav>
 
@@ -101,6 +132,15 @@ const Navigation = () => {
           <Button
             variant="ghost"
             size="icon"
+            className="mr-2 rounded-full transition-all hover:bg-secondary"
+            onClick={toggleDarkMode}
+            aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+          </Button>
+          <Button
+            variant="ghost"
+            size="icon"
             className="rounded-full transition-all hover:bg-secondary"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -112,7 +152,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         <div
           className={cn(
-            "fixed right-0 top-0 z-40 h-screen w-full bg-background p-8 shadow-lg transition-transform duration-300 md:hidden",
+            "fixed right-0 top-0 z-40 h-screen w-full bg-background p-8 shadow-lg transition-transform duration-300 dark:bg-background/95 md:hidden",
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           )}
         >
@@ -138,6 +178,18 @@ const Navigation = () => {
               <NavLink href="#contact" onClick={closeMenu}>
                 {t.nav.contact}
               </NavLink>
+              <li className="flex items-center">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="rounded-full"
+                  onClick={toggleDarkMode}
+                  aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+                >
+                  {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+                  <span className="ml-2">{isDarkMode ? t.nav.lightMode : t.nav.darkMode}</span>
+                </Button>
+              </li>
             </ul>
           </nav>
         </div>
