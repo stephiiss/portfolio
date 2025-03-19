@@ -1,69 +1,46 @@
-# Welcome to your Lovable project
+# 🌐 Stephani | Portfólio  
 
-## Project info
+🚀 Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar minha trajetória na programação, as tecnologias que utilizo e os projetos que desenvolvi ao longo do tempo.  
 
-**URL**: https://lovable.dev/projects/74bb70e6-6674-49de-a478-76b5afcc1909
+## 📌 Sobre o Projeto  
 
-## How can I edit this code?
+Este portfólio é uma plataforma interativa onde compartilho minha jornada como desenvolvedora. Ele inclui:  
 
-There are several ways of editing your application.
+- 📖 Minha trajetória na programação.  
+- 🛠️ Tecnologias que utilizo, como HTML, CSS e JavaScript.  
+- 💡 Links para meus projetos no GitHub.  
+- 🎨 Design responsivo e intuitivo.  
+- 🌙 Modo escuro (Dark Mode) para uma melhor experiência.  
 
-**Use Lovable**
+## 🚀 Tecnologias Utilizadas  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/74bb70e6-6674-49de-a478-76b5afcc1909) and start prompting.
+- **HTML5**  
+- **CSS3** (incluindo Flexbox e Grid Layout)  
+- **JavaScript (ES6+)**  
+- **Frameworks/Bibliotecas**: *(caso tenha usado algum, como React, Bootstrap, etc.)*  
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔗 Acesse o Portfólio  
 
-**Use your preferred IDE**
+🔗 [Clique aqui para acessar o site](https://preview--bilingual-creative-space.lovable.app/)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Projetos  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Você pode visualizar meus projetos diretamente no portfólio ou acessar meu repositório no GitHub:  
 
-Follow these steps:
+🔗 [Meu GitHub](https://github.com/seuusuario)  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📱 Responsividade  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+O site foi desenvolvido com um design responsivo, garantindo uma boa experiência em diferentes dispositivos (desktop, tablet e mobile).  
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🎨 Dark Mode  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+O portfólio conta com um modo escuro para maior conforto visual, especialmente em ambientes de baixa luminosidade.  
 
-**Edit a file directly in GitHub**
+## 📞 Contato  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Caso queira entrar em contato, me encontre em:  
 
-**Use GitHub Codespaces**
+📧 E-mail: stephanidejesus2@gmail.com 
+💼 LinkedIn: https://www.linkedin.com/in/stephani-de-jesus-b35730299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/74bb70e6-6674-49de-a478-76b5afcc1909) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
