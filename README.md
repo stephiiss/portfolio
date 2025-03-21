@@ -27,7 +27,7 @@ Este portfólio é uma plataforma interativa onde compartilho minha jornada como
 
 Você pode visualizar meus projetos diretamente no portfólio ou acessar meu repositório no GitHub:  
 
-🔗 [Meu GitHub](https://github.com/seuusuario)  
+🔗 [Meu GitHub](https://github.com/stephiiss)  
 
 ## 📱 Responsividade  
 
