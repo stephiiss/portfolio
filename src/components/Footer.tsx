@@ -1,4 +1,3 @@
-
 import { useLanguage } from "@/context/LanguageContext";
 import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
@@ -34,24 +33,14 @@ const Footer = () => {
           </div>
           <div className="flex space-x-6">
             <SocialLink
-              href="https://github.com/"
+              href="https://github.com/stephiiss"
               icon={<Github className="h-5 w-5" />}
               label="GitHub"
             />
             <SocialLink
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/stephani-de-jesus-b35730299/"
               icon={<Linkedin className="h-5 w-5" />}
               label="LinkedIn"
-            />
-            <SocialLink
-              href="https://twitter.com/"
-              icon={<Twitter className="h-5 w-5" />}
-              label="Twitter"
-            />
-            <SocialLink
-              href="https://instagram.com/"
-              icon={<Instagram className="h-5 w-5" />}
-              label="Instagram"
             />
           </div>
         </div>
