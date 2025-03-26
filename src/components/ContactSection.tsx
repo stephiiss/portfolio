@@ -1,9 +1,8 @@
-
 import { useLanguage } from "@/context/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { FormEvent, useState } from "react";
 import { Mail, MessageSquare, Send, User } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -18,6 +17,16 @@ const ContactSection = () => {
     message: "",
   });
 
+  const isValidEmail = (email: string) => {
+    return /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
+  };
+
+  const isFormValid =
+    formData.name.trim() !== "" &&
+    formData.email.trim() !== "" &&
+    formData.message.trim() !== "" &&
+    isValidEmail(formData.email);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -27,7 +36,6 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       toast({
@@ -35,7 +43,10 @@ const ContactSection = () => {
         description: new Date().toLocaleTimeString(),
       });
       setFormData({ name: "", email: "", message: "" });
-    }, 1500);
+
+      const mailtoLink = `mailto:stephanidejesus2@gmail.com?subject=Contato de ${formData.name}&body=${formData.message}`;
+      window.location.href = mailtoLink;
+    }, 1000);
   };
 
   return (
@@ -105,7 +116,7 @@ const ContactSection = () => {
                 <Button
                   type="submit"
                   className="w-full transition-all hover:translate-y-[-2px]"
-                  disabled={isSubmitting}
+                  disabled={!isFormValid || isSubmitting}
                 >
                   {isSubmitting ? (
                     <div className="flex items-center">
