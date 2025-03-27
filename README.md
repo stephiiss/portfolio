@@ -16,9 +16,8 @@ Este portfólio é uma plataforma interativa onde compartilho minha jornada como
 
 - **HTML5**  
 - **CSS3** (incluindo Flexbox e Grid Layout)  
-- **JavaScript (ES6+)**  
-- **Frameworks/Bibliotecas**: *(caso tenha usado algum, como React, Bootstrap, etc.)*  
-
+- **JavaScript (ES6+)**
+- *IA*: Lovable
 ## 🔗 Acesse o Portfólio  
 
 🔗 [Clique aqui para acessar o site](https://stephani-azure.vercel.app)  
