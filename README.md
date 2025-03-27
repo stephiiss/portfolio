@@ -21,7 +21,7 @@ Este portfólio é uma plataforma interativa onde compartilho minha jornada como
 
 ## 🔗 Acesse o Portfólio  
 
-🔗 [Clique aqui para acessar o site](https://preview--bilingual-creative-space.lovable.app/)  
+🔗 [Clique aqui para acessar o site](https://stephani-azure.vercel.app)  
 
 ## 📂 Projetos  
 
