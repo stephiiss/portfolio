@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Translator",
+    "language": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Web Developer & Designer",
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Hello! I'm Stephani, a creative developer passionate about crafting beautiful digital experiences. I combine technical expertise with an eye for design to create websites that not only function flawlessly but also look stunning.",
+    "cards": {
+      "whoIAm": {
+        "title": "Who I Am",
+        "content": "I'm a passionate web developer and designer with a keen eye for aesthetics and functionality. I love creating beautiful, user-friendly experiences that leave a lasting impression."
+      },
+      "whatIDo": {
+        "title": "What I Do",
+        "content": "I specialize in building modern web applications using cutting-edge technologies. My focus is on creating responsive, accessible, and performant websites that look great on any device."
+      },
+      "myApproach": {
+        "title": "My Approach",
+        "content": "I believe in a holistic approach to web development, where design and functionality work hand in hand. I strive for clean code, intuitive interfaces, and delightful user experiences."
+      }
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "error": "Failed to fetch repositories",
+    "noDescription": "No description provided",
+    "code": "Code",
+    "liveDemo": "Live Demo"
+  },
+  "skills": {
+    "title": "My Skills",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "design": "Design & Tools",
+    "quality": "Quality Assurance"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Connect",
+    "description": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "title": "Send a Message",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "sending": "Sending...",
+      "send": "Send Message"
+    },
+    "success": {
+      "title": "Message sent!",
+      "description": "Thank you for your message. I'll get back to you soon."
+    },
+    "errors": {
+      "title": "Failed to send message",
+      "description": "Please try again later.",
+      "sendFailed": "Failed to send message"
+    }
+  },
+  "footer": {
+    "scrollToTop": "Scroll to top",
+    "tagline": "Crafting beautiful web experiences",
+    "copyright": "© {{year}} Stephani. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "translator": {
+    "inputPlaceholder": "Enter text to translate",
+    "outputPlaceholder": "Translation will appear here",
+    "translate": "Translate",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "swap": "Swap languages",
+    "clear": "Clear"
+  },
+  "languages": {
+    "en": "English",
+    "pt": "Portuguese",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "zh": "Chinese"
+  }
+} 

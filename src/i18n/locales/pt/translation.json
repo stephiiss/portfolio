@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Tradutor",
+    "language": "Idioma"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Desenvolvedora Web & Designer",
+    "cta": "Explorar Meu Trabalho"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Olá! Eu sou Stephani, uma desenvolvedora criativa apaixonada por criar experiências digitais bonitas. Combino expertise técnica com um olhar para design para criar sites que não apenas funcionam perfeitamente, mas também são visualmente impressionantes.",
+    "cards": {
+      "whoIAm": {
+        "title": "Quem Sou",
+        "content": "Sou uma desenvolvedora web e designer apaixonada com um olhar aguçado para estética e funcionalidade. Amo criar experiências bonitas e amigáveis que deixam uma impressão duradoura."
+      },
+      "whatIDo": {
+        "title": "O Que Faço",
+        "content": "Me especializo em construir aplicações web modernas usando tecnologias de ponta. Meu foco é criar sites responsivos, acessíveis e performáticos que ficam ótimos em qualquer dispositivo."
+      },
+      "myApproach": {
+        "title": "Minha Abordagem",
+        "content": "Acredito em uma abordagem holística para o desenvolvimento web, onde design e funcionalidade trabalham em harmonia. Busco código limpo, interfaces intuitivas e experiências de usuário encantadoras."
+      }
+    }
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "error": "Falha ao carregar repositórios",
+    "noDescription": "Sem descrição disponível",
+    "code": "Código",
+    "liveDemo": "Demo"
+  },
+  "skills": {
+    "title": "Minhas Habilidades",
+    "frontend": "Desenvolvimento Frontend",
+    "backend": "Desenvolvimento Backend",
+    "design": "Design & Ferramentas",
+    "quality": "Garantia de Qualidade"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos Conectar",
+    "description": "Sinta-se à vontade para entrar em contato se você está procurando uma desenvolvedora, tem uma pergunta ou apenas quer se conectar.",
+    "email": "Email",
+    "phone": "Telefone",
+    "location": "Localização",
+    "form": {
+      "title": "Envie uma Mensagem",
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "Email",
+      "emailPlaceholder": "Seu email",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "Sua mensagem",
+      "sending": "Enviando...",
+      "send": "Enviar Mensagem"
+    },
+    "success": {
+      "title": "Mensagem enviada!",
+      "description": "Obrigada pelo seu contato. Retornarei em breve."
+    },
+    "errors": {
+      "title": "Erro ao enviar mensagem",
+      "description": "Por favor, tente novamente mais tarde.",
+      "sendFailed": "Falha ao enviar mensagem"
+    }
+  },
+  "footer": {
+    "scrollToTop": "Voltar ao topo",
+    "tagline": "Criando experiências web bonitas",
+    "copyright": "© {{year}} Stephani. Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "translator": {
+    "inputPlaceholder": "Digite o texto para traduzir",
+    "outputPlaceholder": "A tradução aparecerá aqui",
+    "translate": "Traduzir",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "swap": "Trocar idiomas",
+    "clear": "Limpar"
+  },
+  "languages": {
+    "en": "Inglês",
+    "pt": "Português",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "de": "Alemão",
+    "it": "Italiano",
+    "ru": "Russo",
+    "ja": "Japonês",
+    "ko": "Coreano",
+    "zh": "Chinês"
+  }
+} 

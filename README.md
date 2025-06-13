@@ -1,46 +1,79 @@
-# 🌐 Stephani | Portfólio  
+# Vite React Shadcn TypeScript Template
 
-🚀 Bem-vindo ao meu portfólio! Este projeto foi criado para apresentar minha trajetória na programação, as tecnologias que utilizo e os projetos que desenvolvi ao longo do tempo.  
+Este é um template moderno para desenvolvimento web utilizando as mais recentes tecnologias e práticas recomendadas.
 
-## 📌 Sobre o Projeto  
+## 🚀 Tecnologias
 
-Este portfólio é uma plataforma interativa onde compartilho minha jornada como desenvolvedora. Ele inclui:  
+Este projeto utiliza as seguintes tecnologias:
 
-- 📖 Minha trajetória na programação.  
-- 🛠️ Tecnologias que utilizo, como HTML, CSS e JavaScript.  
-- 💡 Links para meus projetos no GitHub.  
-- 🎨 Design responsivo e intuitivo.  
-- 🌙 Modo escuro (Dark Mode) para uma melhor experiência.  
+- [Vite](https://vitejs.dev/) - Build tool e dev server
+- [React](https://react.dev/) - Biblioteca JavaScript para construção de interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado do JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utility-first
+- [Shadcn/ui](https://ui.shadcn.com/) - Componentes React reutilizáveis e estilizados
+- [React Router DOM](https://reactrouter.com/) - Roteamento para React
+- [React Query](https://tanstack.com/query/latest) - Gerenciamento de estado e cache
+- [React Hook Form](https://react-hook-form.com/) - Gerenciamento de formulários
+- [Zod](https://zod.dev/) - Validação de esquemas TypeScript
+- [i18next](https://www.i18next.com/) - Internacionalização
+- [Lucide React](https://lucide.dev/) - Ícones
 
-## 🚀 Tecnologias Utilizadas  
+## 📦 Pré-requisitos
 
-- **HTML5**  
-- **CSS3** (incluindo Flexbox e Grid Layout)  
-- **JavaScript (ES6+)**
-- *IA*: Lovable
-## 🔗 Acesse o Portfólio  
+- Node.js (versão recomendada: 18+)
+- npm ou yarn ou pnpm
 
-🔗 [Clique aqui para acessar o site](https://stephani-azure.vercel.app)  
+## 🛠️ Instalação
 
-## 📂 Projetos  
+1. Clone o repositório
+```bash
+git clone [url-do-repositorio]
+```
 
-Você pode visualizar meus projetos diretamente no portfólio ou acessar meu repositório no GitHub:  
+2. Instale as dependências
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
 
-🔗 [Meu GitHub](https://github.com/stephiiss)  
+## 🚀 Scripts Disponíveis
 
-## 📱 Responsividade  
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria a build de produção
+- `npm run build:dev` - Cria a build de desenvolvimento
+- `npm run lint` - Executa o linter
+- `npm run preview` - Visualiza a build localmente
 
-O site foi desenvolvido com um design responsivo, garantindo uma boa experiência em diferentes dispositivos (desktop, tablet e mobile).  
+## 🌟 Recursos
 
-## 🎨 Dark Mode  
+- ✨ Setup completo com Vite
+- 🎨 UI moderna com Shadcn/ui e Tailwind CSS
+- 📱 Design responsivo
+- 🌐 Suporte a internacionalização
+- 🔒 Validação de formulários
+- 🎯 Tipagem forte com TypeScript
+- 🧩 Componentes reutilizáveis
+- 🔍 ESLint configurado
 
-O portfólio conta com um modo escuro para maior conforto visual, especialmente em ambientes de baixa luminosidade.  
+## 📁 Estrutura do Projeto
 
-## 📞 Contato  
+```
+├── src/               # Código fonte
+├── public/           # Arquivos públicos
+├── index.html        # Arquivo HTML principal
+├── vite.config.ts    # Configuração do Vite
+├── tailwind.config.ts # Configuração do Tailwind
+├── tsconfig.json     # Configuração do TypeScript
+└── package.json      # Dependências e scripts
+```
 
-Caso queira entrar em contato, me encontre em:  
+## 🤝 Contribuindo
 
-📧 E-mail: stephanidejesus2@gmail.com 
+Contribuições são sempre bem-vindas! Por favor, leia as diretrizes de contribuição primeiro.
 
- 💼 LinkedIn: https://www.linkedin.com/in/stephani-de-jesus-b35730299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+## 📝 Licença
 
+Este projeto está sob a licença MIT. 
